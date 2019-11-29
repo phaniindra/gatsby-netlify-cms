@@ -115,9 +115,9 @@ export const IndexPageTemplate = ({
                       Case Studies
                     </h3>
                     <CaseStudyRoll count={4} />
-                    <div className="text-center">
+                    <div style={{ textAlign: "center" }}>
                       <Link className="btn" to="/case-study">
-                        Read more
+                        Show more
                     </Link>
                     </div>
                   </div>
