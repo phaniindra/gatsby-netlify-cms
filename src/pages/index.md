@@ -1,21 +1,21 @@
 ---
 templateKey: index-page
-title: Case Studies
 image: /img/home-jumbotron.jpg
-heading: What is Lorem Ipsum
-subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: What is Lorem Ipsum
   description: >-
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+  title: What is Lorem Ipsum
+heading: What is Lorem Ipsum
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  It is a long established fact that a reader will be distracted by the readable
+  content of a page when looking at its layout. The point of using Lorem Ipsum
+  is that it has a more-or-less normal distribution of letters, as opposed to
+  using 'Content here, content here', making it look like readable English. Many
+  desktop publishing packages and web page editors now use Lorem Ipsum as their
+  default model text, and a search for 'lorem ipsum' will uncover many web sites
+  still in their infancy. Various versions have evolved over the years,
+  sometimes by accident, sometimes on purpose (injected humour and the like).
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -55,22 +55,5 @@ intro:
     was popularised in the 1960s with the release of Letraset sheets containing
     Lorem Ipsum passages, and more recently with desktop publishing software
     like Aldus PageMaker including versions of Lorem Ipsum
-
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---
 
