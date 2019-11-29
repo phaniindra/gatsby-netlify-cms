@@ -31,7 +31,7 @@ CustomPageTemplate.propTypes = {
     contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const CustomPage = ({ data }) => {
     const { markdownRemark: post } = data
 
     return (
@@ -45,14 +45,14 @@ const AboutPage = ({ data }) => {
     )
 }
 
-AboutPage.propTypes = {
+CustomPage.propTypes = {
     data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default CustomPage
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const CustomPageQuery = graphql`
+  query CustomPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
