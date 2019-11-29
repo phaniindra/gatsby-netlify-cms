@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import CustomRoll from '../components/CustomRoll'
+import CaseStudyRoll from '../components/CaseStudyRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -88,28 +89,39 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />
-                  <div className="columns">
+                  {/* <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
                         See all products
                     </Link>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    {/* <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
                   </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
+                    <BlogRoll /> */}
+                    {/* <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">
                         Read more
                     </Link>
                     </div>
                     <h3 className="has-text-weight-semibold is-size-2">
                       Custom Posts
-                  </h3>
-                    <CustomRoll />
+                    </h3>
+                    <CustomRoll /> */}
+
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      Case Studies
+                    </h3>
+                    <CaseStudyRoll count={4} />
+                    <div className="text-center">
+                      <Link className="btn" to="/case-study">
+                        Read more
+                    </Link>
+                    </div>
                   </div>
+
                 </div>
               </div>
             </div>
