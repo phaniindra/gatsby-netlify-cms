@@ -134,7 +134,7 @@ export const IndexPageTemplate = ({
                       <AccordionItem>
                         <AccordionItemHeading>
                           <AccordionItemButton>
-                            <h1>header1</h1>
+                            header1
                           </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel>
