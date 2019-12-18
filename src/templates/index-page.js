@@ -132,7 +132,7 @@ export const IndexPageTemplate = ({
                       <AccordionItem>
                         <AccordionItemHeading>
                           <AccordionItemButton>
-                            <img src="/img/chemex.jpg" alt="alt" />
+                            <h1>header1</h1>
                           </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel>
