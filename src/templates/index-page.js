@@ -128,6 +128,8 @@ export const IndexPageTemplate = ({
                         Show more
                     </Link>
                     </div>
+                    <br />
+                    <br />
                     <Accordion>
                       <AccordionItem>
                         <AccordionItemHeading>
